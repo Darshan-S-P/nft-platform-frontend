@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import EthereumInteraction from './Components/EthereumInteraction'; // Update the import path as per your project structure
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Welcome to My NFT Platform!</h1>
+        <EthereumInteraction />
         <a
           className="App-link"
           href="https://reactjs.org"
